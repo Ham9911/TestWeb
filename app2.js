@@ -1,5 +1,6 @@
 let initValue=0;
 let counterVal=document.getElementById('counter');
+counterVal.innerHTML=0;
 const increment=()=>{
     initValue=initValue+1;
     counterVal.innerHTML=initValue;
