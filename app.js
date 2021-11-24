@@ -12,7 +12,6 @@ const decrement=()=>{
 
 const getVal=()=>{
     const snap=document.getElementById('currVal');                
-    snap.innerHTML=initValue;
     var span = document.createElement('div'); 
     snap.appendChild(span)        
     span.innerHTML=initValue;                            
